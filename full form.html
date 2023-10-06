@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      background-color: #d3f9d8;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .h1{
+      /* margin-top: 50px; */
+      text-align: center;
+      
+    }
+    h1{
+      color: #544949;
+    }
+    .container{
+      max-width: 850px;
+      margin: 24px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; */
+      /* /* gap: 16PX; */
+
+      background-color:#2f9e44;
+      background-color: #2f9e44;
+      border-radius: 10px;
+      box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.518);
+
+
+    }
+
+    .grid{
+      width: 100%;
+      margin-left: 30px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+      padding: 20px;
+    }
+
+    @media (max-width: 540px) {
+
+      .grid {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .btn{
+     
+    }
+      
+
+    }
+
+    .btn-grid{
+    grid-column: 1/span 2;
+    
+  }
+   
+    
+    
+
+
+
+    input,
+    select,
+    option{
+      width: 100%;
+      padding: 16px;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: sans-serif;
+      border-radius: 8px;
+      border: none;
+      outline: none;
+      margin-top: 7px;
+      /* background-color: #343a40; */
+      color: #343a40;
+      
+    }
+
+    input ::placeholder{
+      color: #fff;
+    }
+
+    input:focus{
+      box-shadow: 0 0 5px 5px rgba(30, 143, 255, 0.583);
+    }
+    label{
+
+      font-size: 18px;
+      font-weight: 600;
+      display: block;
+      color: #343a40;
+   
+    }
+
+    .btn{
+      width: 125%;
+      background-color: #d3f9d8;
+      color: #333;
+      padding: 10px ;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+      border: none;
+     margin: 12px 0 12px;
+      text-decoration: none;
+      text-align: center;
+      display: inline-block;
+      font-weight: 500;
+    }
+    .input-box{
+      width: 75%;
+      margin-top: 20px;
+    }
+
+    .icon{
+      width: 21px;
+      height: 21px;
+    }
+
+    .label-icon{
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+
+
+  </style>
+  <title>Full form</title>
+</head>
+<body>
+  <div class="h1"><h1>FILL THIS FORM TO GET YOUR PACKAGE</h1></div>
+  <form class="from" action="
+  ">
+  <div class="container">
+    <div class="grid">
+    <div class="input-box">
+    <!-- <label for="firstName">First Name</label> -->
+  <input id="firstName" type="text" required placeholder="Enter Your Name...">
+  </div>
+  <div class="input-box">
+  <!-- <label for="secondName">Second Name</label> -->
+  <input id="secondName" type="text" required placeholder="Enter Your Second Name...">
+  </div>
+ 
+  <div class="input-box">
+  <!-- <label for="country">Your Origin Country</label> -->
+  <input id="country" type="text" required placeholder="Your Country...">
+  </div>
+  <div class="input-box">
+  <!-- <label for="City"> City</label> -->
+  <input id="City" type="text" required placeholder="Your City...">
+  </div>
+  <div class="input-box">
+  <!-- <label for="Address">Your Address</label> -->
+  <input id="Address" type="text" required placeholder="Your Address...">
+  </div>
+  <div class="input-box">
+  <!-- <label for="Number">Your Phone </label> -->
+  <input id="Number" type="number" required placeholder="Your Phone Number...">
+  </div>
+  <div class="input-box">
+  <!-- <label for="email">Valid Email</label> -->
+  <input id="email" type="email" required placeholder="Your Email...">
+  </div>
+  <div class="input-box">
+  <!-- <label for="email">Valid Email</label> -->
+  <input id="password" type="password" required placeholder="Password">
+  </div>
+  <div class="input-box card-input">
+    <div class="label-icon">
+  <label for="card">Enter Your visa card number </label>
+<ion-icon class="icon" name="card-outline"></ion-icon>
+</div>
+  <input id="card" type="number" required placeholder="Your card details...">
+  </div>
+  <div class="input-box btn-grid">
+  <a href="welcoming.html" class="btn">SUBMITT</a>
+  </div>
+  </div>
+
+   <!-- <a class="btn" href="welcoming.html">
+  <button class="btn" type="submit">SUBMITT</button>
+  </a> -->
+
+  </div>
+</form>
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>
